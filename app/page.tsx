@@ -8,19 +8,24 @@ import RecentProjects from "@/components/portfolio/Projects";
 import Experiences from "@/components/portfolio/Experiance";
 import ServicesComponent from "@/components/portfolio/Services";
 import { Testimonial } from "@/components/portfolio/Testimonials";
-import BentoGridThirdDemo from "@/components/portfolio/About";
+import AboutComponent from "@/components/portfolio/About";
+import Footer from "@/components/ui/footer";
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-      <div className="max-w-7xl w-full">
-        <HomeComponent />
-        <Experiences />
-        <RecentProjects />
-        <ServicesComponent />
-        <Testimonial />
-        <BentoGridThirdDemo />
-      </div>
-    </main>
+    <div className="">
+      <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+        <div className="max-w-7xl w-full">
+          <HomeComponent />
+          <Experiences />
+          <RecentProjects />
+          <ServicesComponent />
+          <Testimonial />
+          <AboutComponent />
+        </div>
+      
+          <Footer />
+      </main>
+    </div>
   );
 }

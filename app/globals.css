@@ -6,6 +6,12 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  --cl--black: 40, 23%, 3% ;
+  --cl--ic-terine: 64, 100%, 66%;
+  --cl--cerise: 344, 78%, 55%;
+  --cl--orange-peel: 35, 100%, 55%;
+  --cl--baby-powder: 60, 100%, 99%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,6 +21,7 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
 
 body {
   color: rgb(var(--foreground-rgb));
