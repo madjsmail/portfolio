@@ -11,13 +11,13 @@ import Link from "next/link";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20 flex flex-col flex-wrap items-center justify-center ">
               <SectionHeader
         title="Selection of Recent Projects"
         badge="projects"
         />
 
-      <div className="flex flex-wrap items-center justify-center p-4 gap-10 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-10 mt-10 max-w-7xl">
         {projects.map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
