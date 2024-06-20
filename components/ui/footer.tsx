@@ -10,13 +10,13 @@ export default function Footer() {
 <img src="/assets/signature.png" alt="" />
     
                 </a>
-                    <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
+                    {/* <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
                         <li><a href="#" className=" hover:text-red-900">Pagedone</a></li>
                         <li><a href="#" className="  hover:text-red-900">Products</a></li>
                         <li><a href="#" className="  hover:text-red-900">Resources</a></li>
                         <li><a href="#" className="  hover:text-red-900">Blogs</a></li>
                         <li><a href="#" className="  hover:text-red-900">Support</a></li>
-                    </ul>
+                    </ul> */}
                     <div className="flex space-x-10 justify-center items-center mb-14">
                         <a href="#" className="block   transition-all duration-500 hover:text-red-600 ">
                           <svg className="w-[1.688rem] h-[1.688rem]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">

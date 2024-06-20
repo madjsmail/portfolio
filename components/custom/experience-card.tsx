@@ -40,7 +40,7 @@ export function ExperienceCard({ title, company, date, description, skills }: Ex
                                 initial={{ opacity: 0, y: 30 }}
                                 whileInView={{ opacity: 1, y: 0, transition: { duration: 0.1, delay: index / 40 } }}
                             >
-                                <Badge variant="default">{skill}</Badge>
+                                <Badge variant="secondary">{skill}</Badge>
                             </Reveal>
                         ))}
                     </div>

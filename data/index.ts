@@ -11,7 +11,7 @@ export const experiences = [
     key: "Techmology Full-Time",
     title: "Software Engineer",
     company: "Techmology",
-    date: "Feb 2024 – Ongoing",
+    date: "Apr 2023 – Ongoing",
     description: [
       "Developed responsive web applications using React and Next.js",
       "Worked with prestigious clients, delivering tailored web solutions",
@@ -23,19 +23,6 @@ export const experiences = [
       "Delivered user-friendly interfaces and seamless user experiences"
     ],
     skills: ["React", "Next.js", "Express", "Nest.js", "Agile"]
-  },
-  {
-    key: "Techmology Part-Time",
-    title: "Software Engineer",
-    company: "Techmology",
-    date: "Apr 2023 – Feb 2024",
-    description: [
-      "Developed responsive web applications using React and Next.js",
-      "Maintained and added new features to web applications",
-      "Implemented best practices in software development",
-      "Managed time effectively to meet project deadlines"
-    ],
-    skills: ["React", "Next.js", "Express", "Nest.js"]
   },
   {
     key: "CAMIO",

@@ -12,21 +12,25 @@ import { Education } from "./Education";
 import { Icons } from "../icons/icons";
 import ShinyButton from "../magicui/shiny-button";
 import ShimmerButton from "../magicui/shimmer-button";
+import SectionHeader from "../custom/section-header";
 
 export default function AboutComponent() {
   return (
-    <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
-      {items.map((item, i) => (
-        <BentoGridItem
-          key={i}
-          title={item.title}
-          description={item.description}
-          header={item.header}
-          className={cn("[&>p:text-lg]", item.className)}
-          // icon={item.icon}
-        />
-      ))}
-    </BentoGrid>
+    <div className="">
+      <SectionHeader title="" badge="About Me" />
+      <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
+        {items.map((item, i) => (
+          <BentoGridItem
+            key={i}
+            title={item.title}
+            description={item.description}
+            header={item.header}
+            className={cn("[&>p:text-lg]", item.className)}
+            // icon={item.icon}
+          />
+        ))}
+      </BentoGrid>
+    </div>
   );
 }
 
@@ -34,12 +38,12 @@ const items = [
   {
     title: "",
     description: (
-<div className="flex flex-col h-full justify-between  rounded-lg shadow-md">
-  <div className="text-gray-700 dark:text-white font-semibold text-lg">
-    Software Engineer with +3 years of experience building and maintaining web applications
-  </div>
-
-</div>
+      <div className="flex flex-col h-full justify-between  rounded-lg shadow-md">
+        <div className="text-gray-700 dark:text-white font-semibold text-lg">
+          Software Engineer with +3 years of experience building and maintaining
+          web applications
+        </div>
+      </div>
     ),
     // header: <SkeletonOne />,
     className: "md:col-span-1 h-full",
@@ -83,10 +87,4 @@ const items = [
     className:
       "md:col-span-2 md:row-span-1 flex flex-col-reverse justify-center item-center   ",
   },
-
 ];
-
-
-
-
-

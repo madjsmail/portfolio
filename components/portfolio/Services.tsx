@@ -1,9 +1,13 @@
+import SectionHeader from "../custom/section-header";
 import { HoverEffect } from "../ui/card-hover-effect";
 
 export default  function ServicesComponent() {
   return (
     <div className="max-w-5xl mx-auto px-8">
-        <h1 className="text-4xl text-center font-bold uppercase">Services I provide</h1>
+        <SectionHeader
+        title="Services I provide"
+        badge="Services"
+        />
       <HoverEffect items={majorServices} />
     </div>
   );

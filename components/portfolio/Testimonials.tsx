@@ -2,10 +2,15 @@
 
 import React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
+import SectionHeader from "../custom/section-header";
 
 export function Testimonial() {
   return (
     <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+             <SectionHeader
+        title="What They Said About Me"
+        badge="testimonials"
+        />
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
