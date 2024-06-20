@@ -74,7 +74,7 @@ const items = [
       "md:col-span-2 flex justify-center item-center  flex-row-reverse ",
   },
   {
-    title: <span className="text-2xl bold">background</span>,
+    title: <span className="text-2xl bold">Background</span>,
     description: "",
     header: <Background />,
     className:

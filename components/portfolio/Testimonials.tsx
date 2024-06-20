@@ -7,10 +7,10 @@ import SectionHeader from "../custom/section-header";
 export function Testimonial() {
   return (
     <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-             <SectionHeader
+      <SectionHeader
         title="What They Said About Me"
         badge="testimonials"
-        />
+      />
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
@@ -21,33 +21,15 @@ export function Testimonial() {
 }
 
 const testimonials = [
+
   {
-    quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      quote: "Mr. Abdelmadjid Smail demonstrated a great level of expertise in web development during his tenure at CAMIO LLC. His leadership and initiative were commendable, and we wish him the very best.",
+      name: "Mustapha Boussaid",
+      title: "Managing Director, CAMIO LLC",
   },
   {
-    quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
-  },
-  {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
-  },
-  {
-    quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+      quote: "I highly recommend Smail Abd El Madjid for any development role. He possesses strong technical skills, an excellent work ethic, and a deep understanding of programming languages. Smail is a highly motivated team player with great communication skills and a positive attitude.",
+      name: "Reza Assadi",
+      title: "Director of Software Development, Hotello",
   },
 ];

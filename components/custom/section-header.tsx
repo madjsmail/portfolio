@@ -13,7 +13,7 @@ export default function SectionHeader({
   badge,
 }: namePageProps) {
   return (
-    <div className="w-full flex flex-col md:items-center md:justify-center relative overflow-hidden">
+    <div className="w-full flex flex-col md:items-center md:justify-center relative overflow-hidden my-14">
       <ShimmerButton shimmerDuration="0" className="shadow-2xl">
         <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
           {badge}
