@@ -44,8 +44,17 @@ export function AnimatedAIStackBeam() {
           <Circle ref={div2Ref}>
             <Icons.openai />
           </Circle>
-          <Circle ref={div3Ref}>
+          {/* <Circle ref={div3Ref}>
             <Icons.bard />
+          </Circle> */}
+          <Circle ref={div4Ref}>
+            <Icons.claud />
+          </Circle>
+          <Circle ref={div5Ref}>
+            <Icons.perplex />
+          </Circle>
+          <Circle ref={div6Ref}>
+            <Icons.continue />
           </Circle>
 
 
@@ -66,9 +75,24 @@ export function AnimatedAIStackBeam() {
         toRef={div7Ref}
       />
 
-      <AnimatedBeam
+      {/* <AnimatedBeam
         containerRef={containerRef}
         fromRef={div3Ref}
+        toRef={div7Ref}
+      /> */}
+      <AnimatedBeam
+        containerRef={containerRef}
+        fromRef={div4Ref}
+        toRef={div7Ref}
+      />
+      <AnimatedBeam
+        containerRef={containerRef}
+        fromRef={div5Ref}
+        toRef={div7Ref}
+      />
+      <AnimatedBeam
+        containerRef={containerRef}
+        fromRef={div6Ref}
         toRef={div7Ref}
       />
 
