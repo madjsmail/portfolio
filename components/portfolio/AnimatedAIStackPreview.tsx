@@ -47,6 +47,12 @@ export function AnimatedAIStackBeam() {
           <Circle ref={div3Ref}>
             <Icons.bard />
           </Circle>
+          <Circle ref={div4Ref}>
+            <Icons.claude />
+          </Circle>
+          <Circle ref={div5Ref}>
+            <Icons.perplex />
+          </Circle>
 
 
         </div>
@@ -69,6 +75,16 @@ export function AnimatedAIStackBeam() {
       <AnimatedBeam
         containerRef={containerRef}
         fromRef={div3Ref}
+        toRef={div7Ref}
+      />
+      <AnimatedBeam
+        containerRef={containerRef}
+        fromRef={div4Ref}
+        toRef={div7Ref}
+      />
+      <AnimatedBeam
+        containerRef={containerRef}
+        fromRef={div5Ref}
         toRef={div7Ref}
       />
 
