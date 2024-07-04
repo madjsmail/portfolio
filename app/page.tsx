@@ -15,7 +15,7 @@ import { SpotlightPreview } from "@/components/portfolio/Hero";
 export default function Home() {
   return (
     <div className="">
-      <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+      <main className="relative bg-background flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
         <div className=" w-full">
           <SpotlightPreview />
           <Experiences />
@@ -24,8 +24,8 @@ export default function Home() {
           <Testimonial />
           <AboutComponent />
         </div>
-      
-          <Footer />
+
+        <Footer />
       </main>
     </div>
   );

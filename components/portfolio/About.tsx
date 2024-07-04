@@ -25,7 +25,7 @@ export default function AboutComponent() {
             title={item.title}
             description={item.description}
             header={item.header}
-            className={cn("[&>p:text-lg]", item.className)}
+            className={cn("[&>p:text-lg]  ", item.className)}
           // icon={item.icon}
           />
         ))}
@@ -38,15 +38,15 @@ const items = [
   {
     title: "",
     description: (
-      <div className="flex flex-col h-full justify-between  rounded-lg shadow-md">
-        <div className="text-gray-700 dark:text-white font-semibold text-lg">
+      <div className="flex flex-col h-full justify-between">
+        <div className="text-primary font-semibold text-lg">
           Software Engineer with +3 years of experience building and maintaining
           web applications
         </div>
       </div>
     ),
     // header: <SkeletonOne />,
-    className: "md:col-span-1 h-full  ",
+    className: "md:col-span-1 h-full   ",
     // icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
 

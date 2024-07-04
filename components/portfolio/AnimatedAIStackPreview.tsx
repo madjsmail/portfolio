@@ -36,7 +36,7 @@ export function AnimatedAIStackBeam() {
 
   return (
     <div
-      className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg  bg-background  md:shadow-xl"
+      className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden   bg-background "
       ref={containerRef}
     >
       <div className="flex h-full w-full flex-row items-stretch justify-between gap-10">
