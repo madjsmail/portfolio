@@ -26,7 +26,7 @@ export default function AboutComponent() {
             description={item.description}
             header={item.header}
             className={cn("[&>p:text-lg]", item.className)}
-            // icon={item.icon}
+          // icon={item.icon}
           />
         ))}
       </BentoGrid>
@@ -46,7 +46,7 @@ const items = [
       </div>
     ),
     // header: <SkeletonOne />,
-    className: "md:col-span-1 h-full",
+    className: "md:col-span-1 h-full  ",
     // icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
 

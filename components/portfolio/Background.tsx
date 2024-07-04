@@ -3,7 +3,7 @@
 export function Background() {
   return (
     <div>
-      <section className="background">
+      <section className="background  ">
 
         <p className="mt-4">
           I&apos;m a software engineer with a Master&apos;s degree in Computer

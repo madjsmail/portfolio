@@ -5,7 +5,7 @@ import React from 'react';
 export function Education() {
   return (
     <div>
-      <div className="text-white">
+      <div className="text-white  dark:from-white dark:to-slate-900/10 ">
 
         <div className=" p-6 rounded-lg shadow-md">
           <h3 className="text-xl font-semibold ">Master&apos;s Degree in Computer Systems</h3>
