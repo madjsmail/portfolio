@@ -1,3 +1,4 @@
+
 import React from "react";
 import { cn } from "@/utils/cn";
 import { Spotlight } from "../ui/Spotlight";
@@ -5,13 +6,15 @@ import ShimmerButton from "../magicui/shimmer-button";
 import { AnimatedGradientTextBadge } from "../custom/animated-gradient";
 
 
+
 export function SpotlightPreview() {
+
   return (
     <div className="bg-background ">
-      <div className="h-[50rem] w-full rounded-md flex flex-col md:items-center md:justify-center bg-background antialiased bg-grid-white/[0.02] relative overflow-hidden">
+      <div className="h-[100vh] w-full rounded-md flex flex-col md:items-center md:justify-center bg-background antialiased bg-grid-white/[0.02] relative overflow-hidden">
         <Spotlight
           className="-top-40 left-0 md:left-60 md:-top-20"
-          fill="white"
+          fill={'white'}
 
         />
 
@@ -23,7 +26,7 @@ export function SpotlightPreview() {
           <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-600  dark:from-neutral-50    dark:to-neutral-400 bg-opacity-50">
             Hello <br /> My name is Abdelmadjid
           </h1>
-          <h1 className="text-2xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-600  dark:from-neutral-50    dark:to-neutral-400 bg-opacity-50">
+          <h1 className="text-2xl md:text-7xl  font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-600  dark:from-neutral-50    dark:to-neutral-400 bg-opacity-50">
             I am Software engineer and Full stack web developer.
           </h1>
           <p className="mt-4 font-normal text-base text-secondary-foreground max-w-lg text-center mx-auto">

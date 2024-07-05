@@ -11,11 +11,12 @@ import { Testimonial } from "@/components/portfolio/Testimonials";
 import AboutComponent from "@/components/portfolio/About";
 import Footer from "@/components/ui/footer";
 import { SpotlightPreview } from "@/components/portfolio/Hero";
+import { ModeToggle } from "@/components/custom/theme-toggle";
 
 export default function Home() {
   return (
     <div className="">
-      <main className="relative bg-background flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+      <main className="relative bg-background flex justify-center items-center flex-col overflow-hidden ">
         <div className=" w-full">
           <SpotlightPreview />
           <Experiences />

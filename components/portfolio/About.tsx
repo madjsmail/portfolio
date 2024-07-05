@@ -13,6 +13,7 @@ import { Icons } from "../icons/icons";
 import ShinyButton from "../magicui/shiny-button";
 import ShimmerButton from "../magicui/shimmer-button";
 import SectionHeader from "../custom/section-header";
+import { useTheme } from "next-themes";
 
 export default function AboutComponent() {
   return (
@@ -39,7 +40,7 @@ const items = [
     title: "",
     description: (
       <div className="flex flex-col h-full justify-between">
-        <div className="text-primary font-semibold text-lg">
+        <div className="text-2xl bold text-lg">
           Software Engineer with +3 years of experience building and maintaining
           web applications
         </div>
