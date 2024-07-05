@@ -10,12 +10,13 @@ export default function Experiences() {
     <section
       id="experiences"
       // className="flex flex-col items-start justify-start gap-4 sm:py-32 sm:mx-24 md:mx-32 lg:mx-64 xl:mx-96 py-16"
-      className="flex flex-col items-start justify-start gap-4 sm:py-32 sm:mx-24 md:mx-32 lg:mx-64 xl:mx-96 py-16 relative "
+      className="flex flex-col items-start justify-start gap-4 sm:py-32 sm:mx-24 md:mx-32 lg:mx-64 xl:mx-96 py-16 relative bg-background "
     >
-        <SectionHeader
+      <SectionHeader
         title="Where i've worked"
         badge="Experiences"
-        />
+      />
+      
 
       <div className="flex flex-col gap-4 md:hidden">
         {experiences.map((experience) => (
